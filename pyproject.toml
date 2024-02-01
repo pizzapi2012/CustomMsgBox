@@ -1,0 +1,22 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools>=40.8.0"]
+
+[project]
+name = "customsgboxs"
+version = "1.0.0"
+authors = [
+    {name = "Joseph Knutson", email = "jmknutson2012@gmail.com"},
+]
+description = "A libary to make custom message boxs."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12"
+]
